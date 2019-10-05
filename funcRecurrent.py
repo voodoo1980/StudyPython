@@ -16,7 +16,7 @@ def move(n, a, b, c):
         move(n-1, b, a, c)
 
 
-#aram = int(input("Input param: "))
+#param = int(input("Input param: "))
 #print("Run recurrent function: recurrent + ", param,  recurrent(param))
 
 
