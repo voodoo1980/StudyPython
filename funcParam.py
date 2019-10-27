@@ -29,3 +29,9 @@ else:
         print('测试失败!')
     except TypeError:
         print('测试成功!')
+
+
+def add(x, y, f):
+    return f(x) + f(y)
+
+print(add(-5, 6, abs))
